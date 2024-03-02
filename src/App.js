@@ -9,6 +9,8 @@ import Experience from "./components/Experience";
 import { BrowserRouter as Router } from "react-router-dom";
 import Projects from "./components/Projects";
 import { useState, useEffect } from "react";
+import ProjectDetails from "./components/ProjectDetails";
+import Footer from "./components/Footer";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -48,6 +50,10 @@ function App() {
           <Wrapper>
             <Education />
           </Wrapper>
+          <Footer />
+          {openModal.state && (
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          )}
         </Body>
       </Router>
     </ThemeProvider>
