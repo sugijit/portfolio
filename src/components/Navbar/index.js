@@ -13,7 +13,7 @@ import {
   MobileNavLogo,
   MobileLink,
 } from "./NavbarStyledComponent";
-import { DiCssdeck } from "react-icons/di";
+import { WiRaindrop } from "react-icons/wi";
 import { FaBars } from "react-icons/fa";
 import { Bio } from "../../data/constants";
 import { Close, CloseRounded } from "@mui/icons-material";
@@ -35,7 +35,7 @@ const Navbar = () => {
               cursor: "pointer",
             }}
           >
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+            <WiRaindrop size="3rem" /> <Span>Portfolio</Span>
           </a>
         </NavLogo>
         <MobileIcon>
@@ -54,7 +54,7 @@ const Navbar = () => {
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">
-            Github Profile
+            Github プロフィール
           </GitHubButton>
         </ButtonContainer>
         {isOpen && (

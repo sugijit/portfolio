@@ -114,9 +114,9 @@ export const Img = styled.img`
 
 export const Title = styled.div`
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
   color: ${({ theme }) => theme.text_primary};
-  line-height: 68px;
+  line-height: 56px;
   @media (max-width: 960px) {
     text-align: center;
   }

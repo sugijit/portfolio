@@ -29,10 +29,11 @@ const HeroSection = () => {
         <HeroInnerContainer>
           <HeroLeftContainer id="Left">
             <Title>
-              Hi, I am <br /> {Bio.name}
+              {Bio.name}です、 <br />
+              よろしくお願いします。
             </Title>
             <TextLoop>
-              I am a
+              僕は
               <Span>
                 <Typewriter
                   options={{
@@ -45,7 +46,7 @@ const HeroSection = () => {
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
             <ResumeButton href={Bio.resume} target="display">
-              Check Resume
+              履歴書をチェック
             </ResumeButton>
           </HeroLeftContainer>
 

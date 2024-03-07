@@ -75,10 +75,10 @@ const index = () => {
   return (
     <Container id="experience">
       <Wrapper>
-        <Title>Experience</Title>
+        <Title>Experience | 職場経験</Title>
         <Desc>
-          My work experience as a software engineer and working on different
-          companies and projects.
+          本格的にエンジニアを目指し始めて2年経ちますが、<br></br>
+          10年以上IT企業に勤めてきました。
         </Desc>
         <TimelineSection>
           <Timeline>
