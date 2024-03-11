@@ -1,11 +1,11 @@
 export const Bio = {
   name: "スギ",
-  roles: ["Full Stack Developer", "UI/UX Designer", "Programmer"],
+  roles: ["Full Stack Developer", "Programmer"],
   description:
     "常に新しい事にチャレンジしたいと思っています。ある程度遅くエンジニアとしての活動を始めましたが、人一倍頑張り早く取得するよう勉強を続けています。ご依頼されるすべての方のご希望をそのまま実現できるよう努力してまいります。お仕事の相談がご気軽にご連絡ください。",
   github: "https://github.com/sugijit",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/file/d/1V8kD-PixfkJ0hiuVPZVkerSo3kGOP4Nc/view?usp=sharing",
   twitter: "https://twitter.com/Sugi28030985",
   insta: "https://www.instagram.com/sugi.bs/",
   facebook: "https://www.facebook.com/sugi.batsuuri/",
